@@ -6,6 +6,13 @@
 body { 
     margin: 0;
 }
+body {
+	font-family:Roboto;
+	overflow-x:hidden;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+	display:block;
+}
 
 /* Enter your Styles below! */
 
