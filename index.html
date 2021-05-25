@@ -2,20 +2,122 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Project One Template</title>
+    <title>Kiddie magazine</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic|Playfair+Display:400,700,400italic,700italic"/>
   </head>
-  <body>
-    <h1>Project One Template</h1>
+  <body class="homepage">
+    <div class="site-wrapper">
+      <nav class="main-nav">
+          <a class="mag-logo" href="index.html"><img src="images/logo.png" alt="children magazine"/></a>
+      <ul id="menu">
+        <li class="nav-home"><a href="index.html">Home</a></li>
+        <li class="nav-news"><a href="news.html">News</a></li>
+        <li class="nav-about"><a href="about.html">About</a></li>
+        <li class="nav-newsletter"><a href="newsletter.html">Newsletter</a></li>
+          </ul>
+        </nav>
 
-    <!-- link for jquery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <!-- link for your script file -->
-    <script src="js/script.js"></script>
-  </body>
-</html>
+        <header class="main-header " style="background-image: url(images/intro.jpg)">
+          <div class="vertical">
+            <div class="main-header-content inner">
+              <h1 class="page-title">Fashion Critiques</h1>
+              <div class="entry-title-divider">
+                <span></span><span></span><span></span>
+              </div>
+              <h2 class="page-description">Raising healthy, happy children</h2>
+            </div>
+          </div>
+          <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+        </header>
+    <main id="content" class="content" role="main">
+      
+        <div class="grid">
+          <div class="grid-item">
+            <article class="post">
+            <div class="wrapgriditem">
+              <header class="post-header">
+              <h2 class="post-title"><a href="news.html">10 Super-fun things to do in May!</a></h2>
+              </header>
+              <section class="post-excerpt">
+              <p>
+         Make every moment count this month with these entertaining and wholesome ideas! <a class="read-more" href="news.html">&raquo;</a>
+              </p>
+              </section>
+              <div class="grid-item">
+                <article class="post">
+                <div class="wrapgriditem">
+                  <header class="post-header">
+                  <h2 class="post-title"><a href="news.html">What not to say to a wound-up kid.</a></h2>
+                  </header>
+                  <section class="post-excerpt">
+                  <p>
+                    In her book "The Good News About Bad Behavior: Why Kids Are Less Disciplined Than Ever—And What to Do About It" (PublicAffairs), author Katherine Reynolds Lewis dug into the latest research on discipline.<a class="read-more" href="news.html">&raquo;</a>
+                  </p>
+                  </section>  
+                  <div class="grid-item">
+                    <article class="post">
+                    <div class="wrapgriditem">
+                      <header class="post-header">
+                      <h2 class="post-title"><a href="news.html">Easy to make sidewalk paint</a></h2>
+                      </header>
+                      <section class="post-excerpt">
+                      <p>
+                        When paper isn’t big enough for your little artist, move to the sidewalk. A set of these paints and a big chunk of pavement are all your kids need.<a class="read-more" href="news.html">&raquo;</a>
+                      </p>
+                      </section>  
+                      <div class="grid-item">
+                        <article class="post">
+                        <div class="wrapgriditem">
+                          <header class="post-header">
+                          <h2 class="post-title"><a href="news.html">Bird Cafe</a></h2>
+                          </header>
+                          <section class="post-excerpt">
+                          <p> 
+                            Give your kids a head start on a lifelong pleasure: teach them about birds. First, make a little bird feeder. Hang it from a nearby tree branch or your fire escape to tempt them closer. See who stops by.<a class="read-more" href="news.html">&raquo;</a>
+                          </p>
+                          </section>  
+                          <div class="grid-item">
+                            <article class="post">
+                            <div class="wrapgriditem">
+                              <header class="post-header">
+                              <h2 class="post-title"><a href="news.html">Play mosquito badminton</a></h2>
+                              </header>
+                              <section class="post-excerpt">
+                              <p> 
+                                Mosquitoes are no fun—but swatting at them sure is in this silly twist on badminton!<a class="read-more" href="news.html">&raquo;</a>
+                              </p>
+                              </section>    
+                              <div class="grid-item">
+                                <article class="post">
+                                <div class="wrapgriditem">
+                                  <header class="post-header">
+                                  <h2 class="post-title"><a href="news.html">Mail a hug!</a></h2>
+                                  </header>
+                                  <section class="post-excerpt">
+                                  <p> 
+                                    Print these patterns so your little one can mail a hug to someone special!<a class="read-more" href="news.html">&raquo;</a>
+                                  </p>
+                                  </section>    
+
+                          <nav class="pagination" role="navigation">
+                            <span class="page-number">Page 1 of 2</span>
+                            <a class="older-posts" href="page2.html">Older Posts &rarr;</a>
+                            </nav>
+                          </div>
+                          </main>
+                          <footer class="site-footer clearfix">
+                          <a href="#top" id="back-to-top" class="back-top"></a>
+                            </footer>
+                        </div>
+                        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+                        <script type="text/javascript" src="assets/js/masonry.min.js"></script>
+                        <script type="text/javascript" src="assets/js/jquery.fitvids.js"></script>
+                        <script type="text/javascript" src="assets/js/index.js"></script>
+                        </body>
+                        </html>
