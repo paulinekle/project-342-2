@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kiddie magazine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic|Playfair+Display:400,700,400italic,700italic"/>
+  </head>
+  <body class="homepage">
+    <div class="site-wrapper">
+      <nav class="main-nav">
+          <a class="mag-logo" href="index.html"><img src="images/logo.png" alt="children magazine"/></a>
+      <ul id="menu">
+        <li class="nav-home"><a href="index.html">Home</a></li>
+        <li class="nav-news"><a href="news.html">News</a></li>
+        <li class="nav-about"><a href="about.html">About</a></li>
+        <li class="nav-newsletter"><a href="newsletter.html">Newsletter</a></li>
+          </ul>
+        </nav>
+    </div>
+    <header class="main-header post-head">
+        <div class="vertical">
+            <div class="main-header-content inner">
+                <h1 class="post-title">Newsletter</h1>
+            </div>
+        </div>
+    </header> 
+    <main class="content" role="main">
+     <article class="post tag-magazine tag-art page">
+         <section class="post-content">
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <label for="subject">Email</label>
+          <textarea id="subject" name="subject" placeholder="Write your email address.." style="height:200px"></textarea>
+      
+
+
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script type="text/javascript" src="assets/js/index.js"></script>
+
+    </body>
+    </html>
