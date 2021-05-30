@@ -1,5 +1,5 @@
 
-body {
+body,  {
 	font-family:Roboto;
 	overflow-x:hidden;
 }
@@ -11,6 +11,10 @@ html {
 	font-family:sans-serif;
 	-ms-text-size-adjust:100%;
 	-webkit-text-size-adjust:100%;
+}
+
+.post-content {
+	display: grid ;
 }
 body {
 	margin:0;
@@ -39,8 +43,15 @@ svg:not(:root) {
 
 .grid .grid-item {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    
+	
 }
+
+.grid .grid-item {
+	float: le;
+}
+
+
 
 /*contact*/
 /* Style inputs with type="text", select elements and textareas */
