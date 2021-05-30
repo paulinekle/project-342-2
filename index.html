@@ -1,139 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Kiddie magazine</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Homemade-Apple|Cardo" rel="stylesheet">
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>kiddie- Magazine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="shortcut icon" href="#">
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic|Playfair+Display:400,700,400italic,700italic"/>
+</head>
+<body class="home-template">
+<div class="site-wrapper">
+	<nav class="main-nav overlay clearfix">
+	<a class="blog-logo" href="index.html"><img src="images/logo.png" alt="kiddie-mag"/></a>
+	<ul id="menu">
+		<li class="nav-home nav-current" role="presentation"><a href="index.html">Home</a></li>
+		<li class="nav-article-example" role="presentation"><a href="news.html">News</a></li>
+		<li class="nav-about-us" role="presentation"><a href="about.html">About</a></li>
+		<li class="nav-author-page" role="presentation"><a href="newsletter.html">Newsletter</a></li>
+		
+	</ul>
+	</nav>
+	<header class="main-header " style="background-image: url(images/intro.jpg)">
+	
+	<a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+	</header>
+	<main id="content" class="content" role="main">
 
-  </head>
-  <body class="homepage">
-    <div class="site-wrapper">
-      <nav class="main-nav">
-          <a class="mag-logo" href="index.html"><img src="images/logo.png" alt="children magazine"/></a>
-      <ul id="menu">
-        <li class="nav-home"><a href="index.html">Home</a></li>
-        <li class="nav-news"><a href="news.html">News</a></li>
-        <li class="nav-about"><a href="about.html">About</a></li>
-        <li class="nav-newsletter"><a href="newsletter.html">Newsletter</a></li>
-          </ul>
-        </nav>
+			<div class="grid">
+			<div class="grid-item">
+				<article class="post">
+					<a href="article.html"><img src="images/fun.jpg"></a>
+				<div class="wrapgriditem">
+					<header class="post-header">
+					<h2 class="post-title"><a href="article.html">10 Super-fun things to do in May!</a></h2>
+					</header>
+					<section class="post-excerpt">
+					<p>
+						 Make every moment count this month with these entertaining and wholesome ideas!  <a class="read-more"
+              href="https://www.highlights.com/parents/family-activities/what-to-do-in-may">&raquo;</a>
+					</p>
+					</section>
+					
+				</div>
+				</article>
+			</div>
+			<div class="grid-item">
+				<article class="post tag-romance">
+				<a href="article.html"><img src="images/dino.jpg"></a>
+				<div class="wrapgriditem">
+					<header class="post-header">
+					<h2 class="post-title"><a href="article.html">Ask a Paleontologist!</a></h2>
+					</header>
+					<section class="post-excerpt">
+					<p>
+						Mark Norell answers kids' questions about dinosaurs. He’s a paleontologist at the American 
+            Museum of Natural History.  <a class="read-more" href="article.html">&raquo;</a>
+					</p>
+					</section>
+				
+				</div>
+				</article>
+			</div>
+			<div class="grid-item">
+				<article class="post">
+					<a href="article.html"><img src="images/kid.jpg"></a>
+				<div class="wrapgriditem">
+					<header class="post-header">
+					<h2 class="post-title"><a href="article.html">What not to say to a wound-up kid.</a></h2>
+					</header>
+					<section class="post-excerpt">
+					<p>
+						In her book "The Good News About Bad Behavior: Why Kids Are Less Disciplined
+             Than Ever—And What to Do About It" (PublicAffairs), author Katherine Reynolds Lewis dug into the latest research on discipline.<a class="read-more" href="https://www.highlights.com/parents/articles/what-not-say-wound-kid">&raquo;</a>
+					</p>
+					</section>
+					
+				</div>
+				</article>
+			</div>
+			<div class="grid-item">
+				<article class="post tag-romance">
+				<a href="/having-a-first-chance/"><img src="images/walk.jpg"></a>
+				<div class="wrapgriditem">
+					<header class="post-header">
+					<h2 class="post-title"><a href="article.html">Easy to make sidewalk paint</a></h2>
+					</header>
+					<section class="post-excerpt">
+					<p>
+						When paper isn’t big enough for your little artist, move to the sidewalk.
+             A set of these paints and a big chunk of pavement are all your kids need. <a class="read-more" 
+             href="/having-a-first-chance/">&raquo;</a>
+					</p>
+					</section>
+					
+				</div>
+				</article>
+			</div>
+			<div class="grid-item">
+				<article class="post tag-romance featured">
+				<a href="article.html"><img src="images/bird.jpg"></a>
+				<div class="wrapgriditem">
+					<header class="post-header">
+					<h2 class="post-title"><a href="article.html">Bird Cafe</a></h2>
+					</header>
+					<section class="post-excerpt">
+					<p>
+						Give your kids a head start on a lifelong pleasure: teach 
+            them about birds. First, make a little bird feeder. Hang it from
+             a nearby tree branch or your fire escape to tempt them closer. See who stops by.
+              <a class="read-more" href="/trending-colors/">&raquo;</a>
+					</p>
+					</section>
+					
+				</div>
+				</article>
+			</div>
+			<div class="grid-item">
+				<article class="post">
+				<a href="article.html"><img src="images/badminton.jpg"></a>
+				<div class="wrapgriditem">
+					<header class="post-header">
+					<h2 class="post-title"><a href="article.html">Play mosquito badminton</a></h2>
+					</header>
+					<section class="post-excerpt">
+					<p>
+						Mosquitoes are no fun—but swatting at them sure is in this silly
+             twist on badminton! <a class="read-more"
+              href="https://www.highlights.com/parents/games/play-mosquito-badminton">&raquo;</a>
+					</p>
+					</section>
+					
+				</div>
+				</article>
+			</div>
+			<div class="grid-item">
+				<article class="post tag-romance">
+				<a href="article.html"><img src="images/hug.jpg"></a>
+				<div class="wrapgriditem">
+					<header class="post-header">
+					<h2 class="post-title"><a href="article.html">Mail a hug!</a></h2>
+					</header>
+					<section class="post-excerpt">
+					<p>
+						 Print these patterns so your little one can mail a hug to someone special!
+              <a class="read-more" href="https://www.highlights.com/parents/printables/mail-hug">&raquo;</a>
+					</p>
+					</section>
+					
+				</div>
+				</article>
+			</div>
+			<div class="grid-item">
+				<article class="post featured">
+				<a href="article.html"><img src="images/kid2.png"></a>
+				<div class="wrapgriditem">
+					<header class="post-header">
+					<h2 class="post-title"><a href="article.html">Five ways to get children to eat vegetables</a></h2>
+					</header>
+					<section class="post-excerpt">
+					<p>
+						Don’t hide veg in food, give kids a say in what they’re eating
+             – and share the journey of discovery.‘Don’t try to give kids a lesson in nutrition because they just won’t care.’
+						‘Don’t try to give kids a lesson in nutrition because they just won’t care.’ 
+ <a class="read-more" href="/drinking-whenever-you-are-ready-or-even-if-youre-not/">&raquo;</a>
+					</p>
+					</section>
+					
+				</div>
+				</article>
+			</div>
+			<div class="grid-item">
+				<article class="post">
+					<a href="article.html"><img src="images/flute.jpg"></a>
+				<div class="wrapgriditem">
+					<header class="post-header">
+					<h2 class="post-title"><a href="article.html">Kids Zone!!!</a></h2>
+					</header>
+					<section class="post-excerpt">
+					<p>
+						Let's check 3 fun science experiments this week! <a class="read-more" href="/reading-fashion-eating-books/">&raquo;</a>
+					</p>
+					</section>
+					
+				</div>
+				</article>
+			</div>
+		</div>
+		<nav class="pagination" role="navigation">
+		<span class="page-number">Page 1 of 1550</span>
+		<a class="older-posts" href="page2.html">Older Posts &rarr;</a>
+		</nav>
+	</div>
+	</main>
+	<footer class="site-footer clearfix">
+	<a href="#top" id="back-to-top" class="back-top"></a>
+	<div class="text-center">
+		<a href="index.html">kiddie magazine</a> &copy; 2021 
+		
+	</div>
+	</footer>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-        <header class="main-header " style="background-image: url(images/intro.jpg)">
-          
-          <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-        </header>
-    <main id="content" class="content" role="main">
-      
-        <div class="grid">
-          <div class="grid-item">
-            <article class="post">
-            <div class="wrapgriditem">
-              <header class="post-header">
-              <h2 class="post-title"><a href="news.html">10 Super-fun things to do in May!</a></h2>
-              </header>
-              <section class="post-excerpt">
-              <p>
-         Make every moment count this month with these entertaining and wholesome ideas! <a class="read-more" href="news.html">&raquo;</a>
-              </p>
-              </section>
-              </div>
-              </article>
-          </div>
-            <div class="grid-item">
-              <article class="post-kid">
-              <div class="wrapgriditem">
-                <header class="post-header">
-                <h2 class="post-title"><a href="news.html">What not to say to a wound-up kid.</a></h2>
-                </header>
-                <section class="post-excerpt">
-                <p>
-                  In her book "The Good News About Bad Behavior: Why Kids Are Less Disciplined Than Ever—And What to Do About It" (PublicAffairs), author Katherine Reynolds Lewis dug into the latest research on discipline.<a class="read-more" href="news.html">&raquo;</a>
-                </p>
-                </section>
-        </div>
-        </article>
-        </div>
-        <div class="grid-item">
-          <article class="post-paint">
-          <div class="wrapgriditem">
-            <header class="post-header">
-            <h2 class="post-title"><a href="news.html">Easy to make sidewalk paint</a></h2>
-            </header>
-            <section class="post-excerpt">
-            <p>
-              When paper isn’t big enough for your little artist, move to the sidewalk. A set of these paints and a big chunk of pavement are all your kids need.<a class="read-more" href="news.html">&raquo;</a>
-            </p>
-            </section>  
-            </div>
-            </article>
-            </div>
-
-            <div class="grid-item">
-              <article class="post-cafe">
-              <div class="wrapgriditem">
-                <header class="post-header">
-                <h2 class="post-title"><a href="news.html">Bird Cafe</a></h2>
-                </header>
-                <section class="post-excerpt">
-                <p> 
-                  Give your kids a head start on a lifelong pleasure: teach them about birds. First, make a little bird feeder. Hang it from a nearby tree branch or your fire escape to tempt them closer. See who stops by.<a class="read-more" href="news.html">&raquo;</a>
-                </p>
-                </section>  
-                </div>
-                </article>
-                </div>
-
-                <div class="grid-item">
-                  <article class="post-game">
-                  <div class="wrapgriditem">
-                    <header class="post-header">
-                    <h2 class="post-title"><a href="news.html">Play mosquito badminton</a></h2>
-                    </header>
-                    <section class="post-excerpt">
-                    <p> 
-                      Mosquitoes are no fun—but swatting at them sure is in this silly twist on badminton!<a class="read-more" href="news.html">&raquo;</a>
-                    </p>
-                    </section>    
-                    </div>
-                    </article>
-                    </div>
-
-
-                    <div class="grid-item">
-                      <article class="post-mail">
-                      <div class="wrapgriditem">
-                        <header class="post-header">
-                        <h2 class="post-title"><a href="news.html">Mail a hug!</a></h2>
-                        </header>
-                        <section class="post-excerpt">
-                        <p> 
-                          Print these patterns so your little one can mail a hug to someone special!<a class="read-more" href="news.html">&raquo;</a>
-                        </p>
-                        </section>    
-                        </div>
-                        </article>
-                        </div>
-
-                <nav class="pagination" role="navigation">
-                  <span class="page-number">Page 1 of 2</span>
-                  <a class="older-posts" href="page2.html">Older Posts &rarr;</a>
-                  </nav>
-                </div>
-                </main>
-              </div>
-              
-          
-
-
-
-
-              <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-              <script type="text/javascript" src="assets/js/index.js"></script>
-              </body>
-              </html>
+</body>
+</html>
