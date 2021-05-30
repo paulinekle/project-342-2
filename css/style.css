@@ -240,8 +240,8 @@ body.nav-opened .site-wrapper {
 	height:100vh;
 	margin-bottom:5rem;
 	text-align:center;
-	background:#e7884e no-repeat center center;
-	background-image:url(../img/defaultjpg);
+	background:#d94d7a no-repeat center center;
+	background-image: url(images/1.jpg);
 	background-size:cover;
 	overflow:hidden;
 }
