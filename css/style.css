@@ -47,10 +47,6 @@ svg:not(:root) {
 	
 }
 
-.grid .grid-item {
-	float: le;
-}
-
 
 
 /*contact*/
@@ -119,7 +115,7 @@ h1,h2 {
 	text-rendering:geometricPrecision;
 }
 h1 {
-	font-size:5rem;
+	font-size:10rem;
 	letter-spacing:-2px;
 	text-indent:-3px;
 }
@@ -669,13 +665,7 @@ body:not(.post-template) .post-title {
 	color:#9EABB3;
 	font-family:Playfair Display;
 }
-.author-thumb {
-	width:24px;
-	height:24px;
-	float:left;
-	margin-right:9px;
-	border-radius:100%;
-}
+
 .post-meta a {
 	color:#9EABB3;
 	text-decoration:none;
@@ -775,17 +765,8 @@ h2.widget-title {
 	font-size:2rem;
 	font-style: italic;
 }
-/* Tweak the .post wrapper style */
-.post-template .post {
-	margin-top:0;
-	border-bottom:none;
-	padding-bottom: 0;
-}
-/* Kill that stylish little circle that was on the border,too */
-.post-template .post:after {
-	display: none;
-}
-/* Keep images centered,and allow images wider than the main text column to break out. */
+
+
 .post-content img {
 	display:block;
 	max-width:126%;
@@ -800,109 +781,7 @@ h2.widget-title {
 	/* for IE9 */
 	transform:translateX(-50%);
 }
-.footnotes {
-	font-style:italic;
-	font-size:1.3rem;
-	line-height:1.6em;
-}
-.footnotes li {
-	margin:0.6rem 0;
-}
-.footnotes p {
-	margin:0;
-}
-.footnotes p a:last-child {
-	text-decoration: none;
-}
-/* The author credit area after the post */
-.post-footer {
-	position:relative;
-	margin:6rem 0 0 0;
-	padding:6rem 0 0 0;
-	border-top:#EBF2F6 1px solid;
-}
-.post-footer h4 {
-	font-size:1.8rem;
-	margin:0;
-}
-.post-footer p {
-	margin:1rem 0;
-	line-height: 1.75em;
-}
-/* list of author links - location / url */
-.author-meta {
-	padding:0;
-	margin:0;
-	list-style:none;
-	font-size:1.4rem;
-	line-height:1;
-	font-style:italic;
-	color:#9EABB3;
-}
-.author-meta a {
-	color:#9EABB3;
-}
-.author-meta a:hover {
-	color: #111;
-}
-/* Create some space to the right for the share links */
-.post-footer .author {
-	margin-right:180px;
-}
-.post-footer h4 a {
-	color:#2e2e2e;
-	text-decoration:none;
-}
-.post-footer h4 a:hover {
-	text-decoration: underline;
-}
-/* Drop the share links in the space to the right. Doing it like this means it's easier for the author bio to be flexible at smaller screen sizes while the share links remain at a fixed width the whole time */
-.post-footer .share {
-	position:absolute;
-	top:6rem;
-	right:0;
-	width:140px;
-}
-.post-footer .share a {
-	font-size:1.8rem;
-	display:inline-block;
-	margin:1rem 1.6rem 1.6rem 0;
-	color:#BBC7CC;
-	text-decoration:none;
-}
-.post-footer .share .icon-twitter:hover {
-	color:#55acee;
-}
-.post-footer .share .icon-facebook:hover {
-	color:#3b5998;
-}
-.post-footer .share .icon-google-plus:hover {
-	color: #dd4b39;
-}
-/* ========================================================================== 6. Author profile ========================================================================== */
-.post-head.main-header {
-	height:65vh;
-	min-height:180px;
-}
-.no-cover.post-head.main-header {
-	height:85px;
-	min-height:0;
-	margin-bottom:0;
-	background:transparent;
-}
-.tag-head.main-header {
-	height:65vh;
-	min-height:180px;
-}
-.author-head.main-header {
-	height:40vh;
-	min-height:180px;
-}
-.no-cover.author-head.main-header {
-	height:10vh;
-	min-height:100px;
-	background:transparent;
-}
+
 
 .read-next {
 	display:-webkit-box;
@@ -943,7 +822,6 @@ h2.widget-title {
 	transition:all 0.2s ease;
 }
 .read-next-story:before {
-	content:"";
 	display:block;
 	position:absolute;
 	top:0;
@@ -964,7 +842,7 @@ h2.widget-title {
 	padding:4px 10px 5px;
 	text-transform:uppercase;
 	font-size:1.1rem;
-	font-family:"Open Sans",sans-serif;
+	font-family:,sans-serif;
 	color:rgba(255,255,255,0.8);
 	border:rgba(255,255,255,0.5) 1px solid;
 	border-radius:4px;
@@ -1122,7 +1000,7 @@ h2.widget-title {
 	float: left;
 }
 /* ========================================================================== 11. Media Queries - Smaller than 900px ========================================================================== */
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:1220px) {
 	blockquote {
 		margin-left:0;
 	}
@@ -1161,7 +1039,7 @@ h2.widget-title {
 		font-size:0.95em
 	}
 	body:not(.post-template) .post-title {
-		font-size:3.2rem;
+		font-size:5rem;
 	}
 	hr {
 		margin:2.4em 0;
@@ -1174,6 +1052,9 @@ h2.widget-title {
 		text-indent:-2px;
 	}
 	h2 {
+		font-size:3.6rem;
+	}
+	h3 {
 		font-size:3.6rem;
 	}
 	
@@ -1202,7 +1083,7 @@ h2.widget-title {
 	}
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:780px) {
 	.main-header {
 		height:60vh;
 		margin-bottom:0;
@@ -1386,8 +1267,7 @@ h2.widget-title {
 		width: 100%;
 	}
 }
-/* ========================================================================== 13. Animations ========================================================================== */
-/* Used to fade in title/desc on the home page */
+
 @-webkit-keyframes fade-in-down {
 	0% {
 		opacity:0;
@@ -1412,7 +1292,6 @@ h2.widget-title {
 		transform: translateY(0);
 	}
 }
-/* Used to bounce .scroll-down on home page */
 @-webkit-keyframes bounce {
 	0%,10%,25%,40%,50% {
 		-webkit-transform:translateY(0) rotate(-90deg);
@@ -1488,8 +1367,7 @@ h2.widget-title {
 .text-center {
 	text-align:center;
 }
-.grid-item {
-}
+
 .grid-item img {
 	transition:transform 0.5s linear;
 }
@@ -1506,7 +1384,7 @@ h2.widget-title {
 	display:block;
 	width:25px;
 	height:25px;
-	background:url(../img/top.png) no-repeat center center;
+
 }
 
 body.nav-opened {
@@ -1579,9 +1457,7 @@ div#preloader {
 	.grid-item {
 		width:48%;
 	}
-	.wrapshadow {
-		display:none;
-	}
+	
 }
 
 @media only screen and (max-width:780px) {
