@@ -29,7 +29,7 @@ a:active,a:hover {
 	outline:0;
 }
 h1 {
-	font-size:2em;
+	font-size:25px;
 	margin:0.67em 0;
 }
 
@@ -124,11 +124,11 @@ h2 {
 }
 
 a {
-	color:#4A4A4A;
+	color:#ff6d00;
 	transition:color 0.3s ease;
 }
 a:hover {
-	color:#111;
+	color:#2c3791;
 }
 p,ul,ol,dl {
 	-webkit-font-feature-settings:'liga' 1,'onum' 1,'kern' 1;
@@ -266,17 +266,17 @@ body.nav-opened .site-wrapper {
 }
 .main-nav a {
 	text-decoration:none;
-	font-size:0.9em;
-	letter-spacing:0.3px;
+	font-size:1em;
+	letter-spacing:0.px;
 	font-weight:400;
-	color:#ccc;
+	color:#fff;
 	font-family:Playfair Display;
 }
 .main-nav .nav-current a {
 	color:#fff;
 }
 .main-nav a:hover {
-	color: #fff;
+	color: #1a8d86;
 }
 /* Navigation */
 body.nav-opened .nav-cover {
@@ -1038,9 +1038,7 @@ h2.widget-title {
 	.post {
 		font-size:0.95em
 	}
-	body:not(.post-template) .post-title {
-		font-size:5rem;
-	}
+	
 	hr {
 		margin:2.4em 0;
 	}
@@ -1048,15 +1046,13 @@ h2.widget-title {
 		padding-left:2em;
 	}
 	h1 {
-		font-size:4.5rem;
+		font-size:8.5rem;
 		text-indent:-2px;
 	}
 	h2 {
 		font-size:3.6rem;
 	}
-	h3 {
-		font-size:3.6rem;
-	}
+
 	
   .post-template .content {
     width: 80%;
@@ -1191,9 +1187,7 @@ h2.widget-title {
 		letter-spacing:0;
 	}
 	
-	body:not(.post-template) .post-title {
-		font-size:2.5rem;
-	}
+
 	.post-template .site-footer {
 		margin-top: 0;
 	}
@@ -1453,15 +1447,4 @@ div#preloader {
 	overflow:visible;
 	background:#333;
 }
-@media only screen and (max-width:1220px) {
-	.grid-item {
-		width:48%;
-	}
-	
-}
 
-@media only screen and (max-width:780px) {
-	.grid-item {
-		width:100%;
-	}
-}
