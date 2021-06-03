@@ -13,6 +13,22 @@ html {
 	-webkit-text-size-adjust:100%;
 }
 
+.scroll-down {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    bottom: 75px;
+    left: 50%;
+    margin-left: -16px;
+    width: 50px;
+    height: 34px;
+    font-size: 34px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-animation: bounce 4s 2s infinite;
+    animation: bounce 4s 2s infinite;
+}
+  
 .post-content {
 	display: grid ;
 }
@@ -430,12 +446,11 @@ body.nav-opened .nav {
 	bottom:75px;
 	left:50%;
 	margin-left:-16px;
-	width:34px;
+	width: 50px;
 	height:34px;
 	font-size:34px;
 	text-align:center;
 	text-decoration:none;
-	color:rgba(255,255,255,0.7);
 	-webkit-transform:rotate(-90deg);
 	-ms-transform:rotate(-90deg);
 	transform:rotate(-90deg);
@@ -444,11 +459,11 @@ body.nav-opened .nav {
 }
 /* Stop it bouncing and increase contrast when hovered */
 .scroll-down:hover {
-	color:#fff;
+	color:#pink;
 	-webkit-animation:none;
 	animation: none;
 }
-/* Put a semi-opaque radial gradient behind the icon to make it more visible on photos which happen to have a light background. */
+
 .home-template .main-header:after {
 	display:block;
 	content:" ";
